@@ -29,7 +29,7 @@ class Firma:
         if personel in self.personel_listesi:
             self.personel_listesi.remove(personel)
 
-# Örnek kullanım:
+
 personel1 = Personel("Ali", "Muhasebe", 5, 3000)
 personel2 = Personel("Semih","Yazılımcı",3,15000)
 firma = Firma()
